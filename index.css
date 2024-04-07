@@ -1,3 +1,11 @@
 h1 {
   color: palevioletred;
 }
+
+.rainbow-text-loop {
+  font-size: 1.5rem;
+  display: inline-block;
+  margin-top: 1rem;
+  text-shadow: 2px 2px 4px #000000;
+  -webkit-animation: rainbow 5s infinite; 
+}
