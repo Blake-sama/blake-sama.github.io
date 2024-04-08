@@ -24,11 +24,12 @@ h1 {
 
 nav {
   background-color: coral;
-  height: 50px;
+  height: 75px;
 }
 
 nav a {
   background-color: lightcoral;
+  vertical-align: middle;
 }
 
 .center {
@@ -49,4 +50,9 @@ nav a {
   text-align: left;
   align-content: center;
   padding-left: 25px;
+}
+
+#kobayashi-typing {
+  pointer-events: none;
+  position: absolute;
 }
