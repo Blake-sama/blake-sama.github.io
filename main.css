@@ -1,0 +1,52 @@
+* {
+  font-family:  "Noto Sans JP", "Times New Roman";
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+div {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 32px;
+}
+
+nav {
+  background-color: coral;
+  height: 50px;
+}
+
+nav a {
+  background-color: lightcoral;
+}
+
+.center {
+  margin: 0 auto;
+  text-align: center;
+  align-content: center;
+}
+
+.right {
+  margin: 0 auto;
+  text-align: right;
+  align-content: center;
+  padding-right: 25px;
+}
+
+.left {
+  margin: 0 auto;
+  text-align: left;
+  align-content: center;
+  padding-left: 25px;
+}
