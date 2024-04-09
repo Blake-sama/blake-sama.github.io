@@ -3,51 +3,11 @@
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 18px;
-}
-
-body {
-  margin: 0;
-  width: 100vw;
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: hidden;
-}
-
-h1 {
-  font-weight: 600;
-  font-size: 32px;
-}
-
-header {
-  display: grid;
-  grid-template-columns: 1fr 1.5fr 1fr;
-  width: 100%;
-  align-items: center;
-  background-color: #eb8f79;
-  justify-content: space-between;
-  height: 83px;
-  width: 100vw;
-  overflow-x: hidden;
-  overflow-y: hidden;
-}
-
-.nav_background {
-  justify-self: center;
-}
-
-nav a {
-  margin-inline: 10px;
-}
-
-.social_media_icons {
-  width: 50px;
-  height: auto;
-  float: right;
-  margin-inline: 20px;
+  line-height: 1.5;
 }
 
 .center {
-  margin: auto;
+  margin: 0 auto;
   text-align: center;
   align-content: center;
   vertical-align: middle;
@@ -69,10 +29,51 @@ nav a {
   padding-left: 25px;
 }
 
+header {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 1fr;
+  width: 100%;
+  align-items: center;
+  background-color: #eb8f79;
+  justify-content: space-between;
+  height: 83px;
+  width: 100vw;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.nav_background {
+  justify-self: center;
+}
+
 #kobayashi-typing {
   pointer-events: none;
   float: left;
   width: 150px;
+}
+
+nav a {
+  margin-inline: 10px;
+}
+
+.social_media_icons {
+  width: 50px;
+  height: auto;
+  float: right;
+  margin-inline: 20px;
+}
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: auto;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 32px;
 }
 
 .lucky-star {
