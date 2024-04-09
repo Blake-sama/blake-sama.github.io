@@ -19,33 +19,28 @@ h1 {
 }
 
 header {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
   align-items: center;
-  color: white;
   background-color: #eb8f79;
+  justify-content: space-between;
   height: 83px;
 }
 
 .nav_background {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-
+  justify-self: center;
 }
 
 nav a {
   margin-inline: 10px;
 }
 
-.nav-icons {
- display: flex;
- align-items: center;
-}
-
 .social_media_icons {
   width: 50px;
   height: auto;
-  margin-right: 10px;
+  float: right;
+  margin-inline: 20px;
 }
 
 .center {
@@ -73,6 +68,6 @@ nav a {
 
 #kobayashi-typing {
   pointer-events: none;
-  float: inline-start;
+  float: left;
   width: 150px;
 }
