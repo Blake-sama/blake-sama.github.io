@@ -26,6 +26,9 @@ header {
   background-color: #eb8f79;
   justify-content: space-between;
   height: 83px;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .nav_background {
