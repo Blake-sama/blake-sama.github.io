@@ -74,3 +74,9 @@ nav a {
   float: left;
   width: 150px;
 }
+
+.lucky-star {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
