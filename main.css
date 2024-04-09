@@ -76,7 +76,8 @@ nav a {
 }
 
 .lucky-star {
-  width: 100vw;
+  width: 960px;
+  max-width: 100vw; /* Set maximum width */
   height: auto;
-  text-align: center;
+  float: right;
 }
