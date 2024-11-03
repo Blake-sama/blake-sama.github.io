@@ -10,17 +10,45 @@ header {
   white-space: nowrap;
 }
 
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav ul li {
+  padding: 0 10px;
+}
+
+nav a,
+nav a:visited,
+nav a:hover,
+nav a:active {
+  text-decoration: none;
+  color: white;
+  text-shadow: 2px 2px black;
+  font-size: 20px;
+}
+
+.nav_background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 75px;
+}
+
+.nav_social ul li {
+  padding: 0 10px;
+}
+
 #kobayashi-typing {
   pointer-events: none;
   width: 150px;
 }
 
-nav a {
-  margin-inline: 10px;
-}
-
 .social_media_icons {
-  justify-content: space-between;
   width: 50px;
-  height: auto;
 }
