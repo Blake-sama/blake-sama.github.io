@@ -1,23 +1,20 @@
 header {
-  display: grid;
-  grid-template-columns: 1fr 1.5fr 1fr;
-  width: 100%;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
   background-color: #eb8f79;
-  justify-content: space-between;
-  height: 83px;
+  height: 78px;
   width: 100vw;
   overflow-x: auto;
   overflow-y: hidden;
 }
 
 .nav_background {
-  justify-self: center;
+  margin: 0 auto;
 }
 
 #kobayashi-typing {
   pointer-events: none;
-  float: left;
   width: 150px;
 }
 
@@ -28,6 +25,4 @@ nav a {
 .social_media_icons {
   width: 50px;
   height: auto;
-  float: right;
-  margin-inline: 20px;
 }
